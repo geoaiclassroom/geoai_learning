@@ -22,7 +22,7 @@ Bien qu'une copie de tout le matériel puisse être trouvée dans l'environnemen
 
 ## Module 2 -- Formation pratique sur les applications de ML/DL
 
-[Une introduction rapide à la programmation Python](https://drive.google.com/file/d/1C_28yERYvP17VYbv5TBb-5AUNaw1rKhf/view?usp=drive_link)
+[Une introduction rapide à la programmation Python](/intro_python_fr/Python_101_FR.pdf)
 
 [Un tutoriel pour revoir comment les métriques de performance d'un modèle de segmentation sémantique sont calculées](/Tutorial1/Metrics.ipynb)
 
