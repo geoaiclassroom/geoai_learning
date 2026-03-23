@@ -30,3 +30,6 @@ Bien qu'une copie de tout le matériel puisse être trouvée dans l'environnemen
 
 [Un tutoriel pour pratiquer l'inférence à partir d'un modèle d'apprentissage profond pour la classification d'images](/Tutorial3/CNN.ipynb)
 
+[Enregistrement vidéo en anglais](https://drive.google.com/file/d/1NcBt4z0JRMytXyYjXHm8XwVn73Rr54kP/view?usp=drive_link)
+
+[Enregistrement vidéo en espagnol](https://drive.google.com/file/d/1ahg-q-4p9ke0hVgW_NnN5Xf-aSvYqzwR/view?usp=drive_link)
