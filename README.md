@@ -30,3 +30,6 @@ While a copy of all material can be found in the classroom environment, they are
 
 [A tutorial to practice inferring from a deep learning model for image classification](/Tutorial3/CNN.ipynb)
 
+[Video recording in English](https://drive.google.com/file/d/1NcBt4z0JRMytXyYjXHm8XwVn73Rr54kP/view?usp=drive_link)
+
+[Video recording in Spanish](https://drive.google.com/file/d/1ahg-q-4p9ke0hVgW_NnN5Xf-aSvYqzwR/view?usp=drive_link)
