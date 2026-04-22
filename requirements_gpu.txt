@@ -1,10 +1,10 @@
 # conda create --name tutorial python=3.12
 # conda activate tutorial
-# pip install -r requirements.txt
+# pip install -r requirements_gpu.txt
 
-notebook==7.4.9
+notebook==7.4.7
 pillow==11.3.0
-numpy==2.0.2
+numpy==1.26.4
 requests==2.32.4
 matplotlib==3.10.0
 pandas==2.2.2
@@ -17,12 +17,18 @@ geopandas==1.1.3
 pyarrow==18.1.0
 seaborn==0.13.2
 umap-learn==0.5.11
-shap==0.51.0
+shap==0.49.1
 shapely==2.1.2
 joblib==1.5.3
-torch @ https://download.pytorch.org/whl/cpu/torch-2.10.0%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl
+satlaspretrain-models==0.3.1
+torchcam==0.4.1
+rasterio==1.4.3
+tensorboard==2.20.0
+opencv-python==4.11.0.86
+torch==2.10.0+cu126
 torchao==0.10.0
 torchdata==0.11.0
 torchsummary==1.5.1
 torchtune==0.6.1
-torchvision @ https://download.pytorch.org/whl/cpu/torchvision-0.25.0%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl
+torchvision==0.25.0+cu126
+--extra-index-url https://download.pytorch.org/whl/cu126

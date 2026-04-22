@@ -1,5 +1,7 @@
 # GeoAI Classroom
 
+This is [Mozhdeh Shahbazi](https://linkedin.com/in/moz-shahbazi) 👋 — your friendly, open‑source GeoAI instructor. I am a computer-vision & GeoAI scientist at NRCan, and I'm here to help turn spatial data into real insights 🌍 ✨.
+ 
 The Google Classroom can be accessed via [this link](https://classroom.google.com/c/ODQwNjQxMjc1OTQx?cjc=ir232wfq)
  with Classroom code:  ir232wfq
 
@@ -29,4 +31,15 @@ While a copy of all material can be found in the classroom environment, they are
 [A tutorial to practice developing, training, and evaluating a deep learning model for tree classification](/Tutorial2/Classification.ipynb)
 
 [A tutorial to practice inferring from a deep learning model for image classification](/Tutorial3/CNN.ipynb)
+
+
+## Module 3 -- Practical Training on Geo Deep Learning
+
+[A quick introduction to foundation models](https://drive.google.com/file/d/1k6xBPrV1ZMUWalWlAc2MoyPgKSIwOHWF/view?usp=drive_link)
+
+[A tutorial on foundation models with specific focus on Planaura for change detection from optical imagery](/Tutorial4)
+
+[A tutorial on building a SAR image classifier using a pretrained EO foundation model in a data-limited setting](/Tutorial5)
+
+[A tutorial on  NRCan's Geo Deep Learning package and its applications for semantic segmentation and pixel-wise regression](/Tutorial6)
 
