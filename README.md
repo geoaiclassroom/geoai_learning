@@ -44,5 +44,5 @@ While a copy of all material can be found in the classroom environment, they are
 
 [A tutorial on building a SAR image classifier using a pretrained EO foundation model in a data-limited setting](/Tutorial5)
 
-[A tutorial on  NRCan's Geo Deep Learning package and its applications for semantic segmentation and pixel-wise regression](/Tutorial6)
+[A tutorial on  NRCan's Geo Deep Learning (GDL) package and its applications for semantic segmentation](/Tutorial6)
 
