@@ -48,10 +48,10 @@ class OilSpillDataset(Dataset):
             self.images.append((img_path, torch.tensor([1],  dtype=torch.long)))
             self.classes.append(1)
         for img_path in image_paths_lookalike:
-            self.images.append((img_path, torch.tensor([2])))
+            self.images.append((img_path, torch.tensor([2],  dtype=torch.long)))
             self.classes.append(2)
         for img_path in image_paths_clean:
-            self.images.append((img_path, torch.tensor([0])))
+            self.images.append((img_path, torch.tensor([0],  dtype=torch.long)))
             self.classes.append(0)
 
         self.input_size = input_size
@@ -253,7 +253,7 @@ class ResNet18Classifier(nn.Module):
             self.freezable_idx.append(0)
         self.freezable_idx.extend([4, 5, 6, 7])
 
-        # Channel sizes from ResNet-50
+        # Channel sizes from ResNet-18
         # conv1: 64 ch
         # layer1: 64 ch (1/4)
         # layer2: 128 ch (1/8)
@@ -300,8 +300,8 @@ class ResNet18Classifier(nn.Module):
         feats = feats.mean(dim=(2, 3))
         return feats
 
-# This is based on SATLAS foundation model specifically pretrained on aerial images
-# Reference to https://github.com/allenai/satlaspretrain_models/tree/main?tab=readme-ov-file#aerial-05-2mpx-high-res-imagery-pretrained-models
+# This is based on SATLAS foundation model specifically pretrained on S1 imagery
+# Reference to https://github.com/allenai/satlaspretrain_models#sentinel-1-pretrained-models
 class SatlasClassifier(nn.Module):
     def __init__(self, freeze_backbone=True, in_channels=2, num_classes=3):
         super().__init__()
@@ -751,12 +751,12 @@ def predict_probs_cam(model, device, loader, out_mask_dir, model_type):
                 with rasterio.open(imgs_path[b]) as src:
                     profile = src.profile
                     profile_out = profile.copy()
-                    (H, W) = (src.height, src.width)
+                    H, W = src.height, src.width
             else:
                 with Image.open(imgs_path[b]) as src:
                     W, H = src.size
 
-            cams = np.asarray(cams.resize((H, W), resample=Image.Resampling.BICUBIC))
+            cams = np.asarray(cams.resize((W, H), resample=Image.Resampling.BICUBIC))
             cams = (255 * cmap(np.asarray(cams))[:, :, :3]).astype(np.uint8)
 
             name = os.path.splitext(os.path.basename(imgs_path[b]))[0]
@@ -967,4 +967,4 @@ def main_infer(images_dir, model_path, out_masks_dir, model_type="satlas", batch
     for c in range(len(class_labels)):
         data["score_" + class_labels[c]]=[probs[i,c] for i in range(probs.shape[0])]
     df = pd.DataFrame(data)
-    df.to_csv(os.path.join(out_masks_dir, "predictions.csv"), index=False)
+    df.to_csv(os.path.join(out_masks_dir, "classification_predictions.csv"), index=False)

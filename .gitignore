@@ -213,3 +213,16 @@ __marimo__/
 /Tutorial2/*.joblib
 /Tutorial2/runs/
 /Tutorial3/test.txt
+/Tutorial5/Pretrained/world/ne_110m_admin_0_countries.cpg
+/Tutorial5/Pretrained/world/ne_110m_admin_0_countries.dbf
+/Tutorial5/Pretrained/world/ne_110m_admin_0_countries.prj
+/Tutorial5/Pretrained/world/ne_110m_admin_0_countries.README.html
+/Tutorial5/Pretrained/world/ne_110m_admin_0_countries.shp
+/Tutorial5/Pretrained/world/ne_110m_admin_0_countries.shx
+/Tutorial5/Pretrained/world/ne_110m_admin_0_countries.VERSION.txt
+/Tutorial5/Pretrained/resnet18-f37072fd.pth
+/Tutorial5/Pretrained/sentinel1_swinb_si.pth
+/Tutorial7/Data/waterloo_subset_512/
+/Tutorial7/logs/
+/Tutorial7/Data/waterloo_crop_2020/
+/Tutorial5/OilSpillSegmentation_test.py
