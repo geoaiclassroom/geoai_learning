@@ -34,7 +34,7 @@ Bien qu'une copie de tout le matériel puisse être trouvée dans l'environnemen
 
 [Enregistrement vidéo en espagnol](https://drive.google.com/file/d/1ahg-q-4p9ke0hVgW_NnN5Xf-aSvYqzwR/view?usp=drive_link)
 
-## Module 3 -- Practical Training on Geo Deep Learning
+## Module 3 -- Exercices pratiques sur Geo Deep Learning
 
 [Introduction aux modèles de fondation](https://drive.google.com/file/d/1k6xBPrV1ZMUWalWlAc2MoyPgKSIwOHWF/view?usp=drive_link)
 
