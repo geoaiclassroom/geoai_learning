@@ -33,3 +33,17 @@ Bien qu'une copie de tout le matériel puisse être trouvée dans l'environnemen
 [Enregistrement vidéo en anglais](https://drive.google.com/file/d/1NcBt4z0JRMytXyYjXHm8XwVn73Rr54kP/view?usp=drive_link)
 
 [Enregistrement vidéo en espagnol](https://drive.google.com/file/d/1ahg-q-4p9ke0hVgW_NnN5Xf-aSvYqzwR/view?usp=drive_link)
+
+## Module 3 -- Practical Training on Geo Deep Learning
+
+[Introduction aux modèles de fondation](https://drive.google.com/file/d/1k6xBPrV1ZMUWalWlAc2MoyPgKSIwOHWF/view?usp=drive_link)
+
+[Un tutoriel sur les modèles de fondation avec une attention particulière à Planaura pour la détection de changement sur l'imagerie optique](/Tutorial4)
+
+[Un tutoriel sur la construction d'un classificateur d'images SAR utilisant un modèle de fondation EO pré-entraîné dans un contexte de données limitées](/Tutorial5)
+
+[Deux tutoriels sur le Geo Deep Learning (GDL) de RNCan](/Tutorial6)[ et les packages Geo-Inference avec leurs applications pour la segmentation sémantique](/Tutorial7) 
+
+[Enregistrement vidéo en anglais](https://www.youtube.com/watch?v=d_S6ZvtL_PM)
+
+[Enregistrement vidéo en espagnol](https://www.youtube.com/watch?v=RSGUdAAowEA)
