@@ -1,0 +1,70 @@
+task_list: ["infer"]
+csv_inference_file: "path/to/Tutorial4/Data/infer_data.csv"
+inference_save_folder_frame_0: "path/to/Tutorial4/Data/2020_2025_before"
+inference_save_folder_frame_1: "path/to/Tutorial4/Data/2020_2025_after"
+paths_included_in_csvs: true
+use_multi_gpu : false
+use_xarray: false
+batch_size: 1
+data_loader_num_workers: 1
+autocast_float16: true
+num_frames: 2
+save_reconstructed_images: false
+minimum_valid_percentage: 0.1
+concatenate_char: "!"
+num_predictions: 3
+tif_compression: "LZW"
+change_map:
+  return: true
+  upsample_cosine_map: true
+  save_dates_layer: false
+  date_regex: "\\_(\\d{8})_"
+feature_maps:
+  return: true
+  write_as_df: true
+  upsample_feature_map: false
+  write_as_image: false
+  embeddings:
+mosaic_params:
+  delete_residues: true
+  target_crs: "EPSG:32628"
+  target_resolution: 10
+  mosaic_save_postfix: "2020_2025"
+model_params:
+  load_params:
+    source: "huggingface"
+    checkpoint_path: "path/to/Planaura-1.0-S2-Senegal.pth"
+    repo_id: "NRCan/Planaura-1.0"
+    model_name: "Planaura-1.0-S2-Senegal.pth"
+  keep_pos_embedding: true
+  backbone: "planaura_reconstruction"
+  bands: ["B02", "B03", "B04", "B8A", "B11", "B12"]
+  img_size: 512
+  depth: 12
+  decoder_depth: 8
+  patch_size: 16
+  patch_stride: 16
+  embed_attention: true
+  embed_dim: 768
+  decoder_embed_dim: 512
+  num_heads: 12
+  decoder_num_heads: 16
+  mask_ratio: 0.75
+  tubelet_size: 1
+  no_data: -9999
+  data_mean: [
+    836.1105,
+    1312.5455,
+    1840.4399,
+    3188.1226,
+    3874.2311,
+    3024.4216
+  ]
+  data_std: [
+    385.7821,
+    595.9305,
+    1020.3113,
+    918.3842,
+    1614.7953,
+    1595.0770
+  ]

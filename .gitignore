@@ -226,3 +226,7 @@ __marimo__/
 /Tutorial7/logs/
 /Tutorial7/Data/waterloo_crop_2020/
 /Tutorial5/OilSpillSegmentation_test.py
+/Tutorial2/sample_tree.csv
+/Tutorial2/trees_dataset.parquet
+/Tutorial4/Data/2020_2025_after/
+/Tutorial4/Data/2020_2025_before/
