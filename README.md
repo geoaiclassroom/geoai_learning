@@ -1,6 +1,6 @@
 # GeoAI Classroom
 
-This is [Mozhdeh Shahbazi](https://linkedin.com/in/moz-shahbazi) 👋 — your friendly, open‑source GeoAI instructor. I am a computer-vision & GeoAI scientist at NRCan, and I'm here to help turn spatial data into real insights 🌍 ✨.
+This is [Mozhdeh Shahbazi](https://linkedin.com/in/moz-shahbazi) 👋 — your friendly, open‑source GeoAI instructor. I am a computer-vision & GeoAI scientist lead at NRCan, and I'm here to help turn spatial data into real insights 🌍 ✨.
  
 The Google Classroom can be accessed via [this link](https://classroom.google.com/c/ODQwNjQxMjc1OTQx?cjc=ir232wfq)
 
@@ -44,6 +44,8 @@ While a copy of all material can be found in the classroom environment, they are
 
 [A tutorial on foundation models with specific focus on Planaura for change detection from optical imagery](/Tutorial4)
 
+> For a more detailed talk on Planaura, please refer to [this webinar](https://www.youtube.com/watch?v=_EuGbzoR0FU)
+
 [A tutorial on building a SAR image classifier using a pretrained EO foundation model in a data-limited setting](/Tutorial5)
 
 [Two tutorials on  NRCan's Geo Deep Learning (GDL)](/Tutorial6)[ and Geo-Inference packages with their applications for semantic segmentation](/Tutorial7) 
@@ -52,3 +54,8 @@ While a copy of all material can be found in the classroom environment, they are
 
 [Video recording in Spanish](https://www.youtube.com/watch?v=RSGUdAAowEA)
 
+## Update -- July 2026
+
+If you are interested in running any of the tutorials included in this repository through an online platform, you can refer to my [Lightning.AI studio template](https://lightning.ai/geoai-classroom/templates/geoai-learning). All you need to do is clone this template. The environment is fully set up and ready to run any of the notebooks or the scripts in these tutorials. All tutorials can be run with limited CPU/GPU resources for free if you are eligible for Lightning.AI's free-tier compute credits.
+
+**Disclaimer:** The reference to Lightning.AI is provided solely as a convenience for users who wish to run these tutorials in a preconfigured environment. This repository and its authors are independent of Lightning.AI. Any mention of or link to Lightning.AI is for informational and educational purposes only and does not imply endorsement, partnership, sponsorship, or affiliation. The authors assume no responsibility or liability for Lightning.AI's services, account eligibility decisions, credit programs, platform behavior, security, availability, privacy practices, or the processing, storage, and handling of user data. Any interaction with Lightning.AI is solely between the user and Lightning.AI. Users are responsible for reviewing Lightning.AI's documentation, privacy policies, and terms of use before using the platform.
